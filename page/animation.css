@@ -1,0 +1,62 @@
+.fall{
+    transform: translateY(-256px);
+    opacity: 0.0;
+    pointer-events: none;
+    animation: fall 0.5s forwards;
+    animation-iteration-count: 1;
+}
+.fade{
+    opacity: 0.0;
+    pointer-events: none;
+    animation: fade 0.5s forwards;
+    animation-iteration-count: 1;
+}
+.grow{
+    transform: scale(0.0);
+    pointer-events: none;
+    animation: grow 0.5s forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fall{
+    0% {
+        transform: translateY(-256px);
+        opacity: 0.0;
+        pointer-events: none;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1.0;
+        pointer-events: initial;
+    }
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes grow{
+    0% {
+        transform: scale(0.0);
+    }
+    40%{
+        transform: scale(1.2);
+    }
+    60%{
+        transform: scale(1.0);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}

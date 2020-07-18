@@ -1,0 +1,258 @@
+#fav-zone .fav-url{
+    display: none;
+    opacity: 0.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#fav-zone img.fav-icon{
+    max-width: 100%;
+    height: auto;
+    z-index: 3;
+    background-color: transparent;
+    text-align: center;
+}
+#fav-zone .fav-accent{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.75;
+}
+#fav-zone .fav-capsule{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fav-zone .fav-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#fav-zone .fav-title{
+    font-weight: bold;
+    overflow: hidden;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+}
+
+#fav-zone.large-icons #fav-zone-wrapper{
+    font-size: 14px;
+    grid-template-columns: repeat(auto-fill, 128px);
+    grid-auto-columns: 128px;
+    justify-content: center;
+    align-content: flex-start;
+}
+#fav-zone.large-icons .fav-link{
+    width: 128px;
+    text-align: center;
+    padding: 12px;
+    flex-direction: column;
+}
+#fav-zone.large-icons .fav-capsule{
+    width: 128px;
+    height: 128px;
+}
+#fav-zone.large-icons img.fav-icon{
+    width: 64px;
+    border-radius: 8px;
+}
+#fav-zone.large-icons .fav-title{
+    -webkit-line-clamp: 3;
+}
+#fav-zone.large-icons .fav-link:hover .fav-accent{
+    opacity: 1.0;
+    transform: translateY(-8px);
+}
+#fav-zone.large-icons .fav-link:hover img.fav-icon{
+    transform: translateY(-8px);
+}
+.large-icons [data-action="delete"] .delete-fav{
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    background: rgba(200, 200, 200, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+}
+.large-icons [data-action="delete"] .delete-fav:hover{
+    background: rgba(230, 230, 230, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+}
+
+#fav-zone.small-icons #fav-zone-wrapper{
+    font-size: 12px;
+    grid-template-columns: repeat(auto-fill, 96px);
+    grid-auto-columns: 96px;
+    justify-content: center;
+    align-content: flex-start;
+}
+#fav-zone.small-icons .fav-link{
+    width: 96px;
+    text-align: center;
+    padding: 6px;
+    flex-direction: column;
+}
+#fav-zone.small-icons .fav-capsule{
+    width: 96px;
+    height: 96px;
+}
+#fav-zone.small-icons img.fav-icon{
+    width: 48px;
+    border-radius: 6px;
+}
+#fav-zone.small-icons .fav-title{
+    -webkit-line-clamp: 2;
+}
+#fav-zone.small-icons .fav-link:hover .fav-accent{
+    opacity: 1.0;
+    transform: translateY(-8px);
+}
+#fav-zone.small-icons .fav-link:hover img.fav-icon{
+    transform: translateY(-8px);
+}
+.small-icons [data-action="delete"] .delete-fav{
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    background: rgba(200, 200, 200, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+}
+.small-icons [data-action="delete"] .delete-fav:hover{
+    background: rgba(230, 230, 230, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+}
+
+#fav-zone.large-list #fav-zone-wrapper{
+    font-size: 18px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 4px 0px;
+}
+#fav-zone.large-list .fav-link{
+    width: 100%;
+    padding: 0px 6px;
+    text-align: center;
+    flex-direction: row;
+}
+#fav-zone.large-list .fav-capsule{
+    width: 48px;
+    height: 48px;
+}
+#fav-zone.large-list img.fav-icon{
+    width: 32px;
+    border-radius: 6px;
+}
+#fav-zone.large-list .fav-title{
+    -webkit-line-clamp: 1;
+    padding-left: 6px;
+}
+#fav-zone.large-list .fav-link:hover .fav-accent{
+    opacity: 1.0;
+    transform: translateY(0px);
+}
+#fav-zone.large-list .fav-link:hover img.fav-icon{
+    transform: translateY(0px);
+}
+#fav-zone.large-list .fav-link:hover .fav-title{
+    color: #335edf;
+}
+.large-list .delete-fav{
+    top: 0px;
+    right: 0px;
+}
+.large-list [data-action="delete"] .delete-fav{
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    background: rgba(200, 200, 200, 1.0) url("../graphics//close.png") center/12px auto no-repeat;
+}
+.large-list [data-action="delete"] .delete-fav:hover{
+    background: rgba(230, 230, 230, 1.0) url("../graphics//close.png") center/12px auto no-repeat;
+}
+
+#fav-zone.small-list #fav-zone-wrapper{
+    font-size: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 4px 0px;
+}
+#fav-zone.small-list .fav-link{
+    width: 100%;
+    padding: 0px 6px;
+    text-align: center;
+    flex-direction: row;
+}
+#fav-zone.small-list .fav-capsule{
+    width: 32px;
+    height: 32px;
+}
+#fav-zone.small-list img.fav-icon{
+    width: 24px;
+    border-radius: 2px;
+}
+#fav-zone.small-list .fav-title{
+    -webkit-line-clamp: 1;
+    padding-left: 4px;
+}
+#fav-zone.small-list .fav-link:hover .fav-accent{
+    opacity: 1.0;
+    transform: translateY(0px);
+}
+#fav-zone.small-list .fav-link:hover img.fav-icon{
+    transform: translateY(0px);
+}
+#fav-zone.small-list .fav-link:hover .fav-title{
+    color: #335edf;
+}
+.small-list .delete-fav{
+    top: 0px;
+    right: 0px;
+}
+.small-list [data-action="delete"] .delete-fav{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: rgba(200, 200, 200, 1.0) url("../graphics//close.png") center/10px auto no-repeat;
+}
+.small-list [data-action="delete"] .delete-fav:hover{
+    background: rgba(230, 230, 230, 1.0) url("../graphics//close.png") center/10px auto no-repeat;
+}
+
+@media only screen and (min-width: 479px){
+    #fav-zone.large-list .fav-link, #fav-zone.large-list #dummy-link{
+        width: 50%;
+        padding: 0px 3px;
+    }
+    #fav-zone.small-list .fav-link, #fav-zone.small-list #dummy-link{
+        width: 33.33%;
+        padding: 0px 3px;
+    }
+}
+@media only screen and (min-width: 759px){
+    #fav-zone.large-list .fav-link, #fav-zone.large-list #dummy-link{
+        width: 33.33%;
+        padding: 0px 2px;
+    }
+    #fav-zone.small-list .fav-link, #fav-zone.small-list #dummy-link{
+        width: 25%;
+        padding: 0px 3px;
+    }
+}
+@media only screen and (min-width: 1359px){
+    #fav-zone.large-list .fav-link, #fav-zone.large-list #dummy-link{
+        width: 25%;
+        padding: 0px 2px;
+    }
+    #fav-zone.small-list .fav-link, #fav-zone.small-list #dummy-link{
+        width: 12.5%;
+        padding: 0px 3px;
+    }
+}
+@media only screen and (min-width: 2519px){
+    #fav-zone.large-list .fav-link, #fav-zone.large-list #dummy-link{
+        width: 12.5%;
+        padding: 0px 2px;
+    }
+}

@@ -1,0 +1,328 @@
+{
+    "extensionName": {
+        "message": "Настраиваемая новая вкладка",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "Расширение, позволяющее свободно закреплять сайты на странице, открывающейся в новой вкладке. Доступны возможности редактирования закрепленных сайтов, дневной и ночной режимы с автоматическим включением и набор забавных анимаций вывода. Также возможность добавлять сайты на новую вкладку будет добавлена в контекстное меню (вызываемое правым кликом). Сохраненные сайты и настройки хранятся исключительно на Вашем компьютере и никуда не отсылаются, поэтому, чтобы избежать случайной потери данных, регулярно создавайте резервные коды.",
+        "description": "Description of the extension."
+    },
+    "extensionAuthor": {
+        "message": "Конпеки Азуньев",
+        "description": "Author name for manifest."
+    },
+    "PageTitleinnerText": {
+        "message": "Новая вкладка",
+        "description": "New Tab title."
+    },
+    "BtnEditinnerText": {
+        "message": "Редактирование",
+        "description": "Button that makes extension go into edit mode."
+    },
+    "BtnKillinnerText": {
+        "message": "Удаление",
+        "description": "Button that makes extension go into delete mode."
+    },
+    "ScaleSltitle": {
+        "message": "Мелкий список",
+        "description": "Small list view mode."
+    },
+    "ScaleBltitle": {
+        "message": "Крупный список",
+        "description": "Large list view mode."
+    },
+    "ScaleSititle": {
+        "message": "Мелкие значки",
+        "description": "Small icons view mode."
+    },
+    "ScaleBititle": {
+        "message": "Крупные значки",
+        "description": "Large icons view mode."
+    },
+    "BtnAddtitle": {
+        "message": "Добавить сайт",
+        "description": "Add button."
+    },
+    "BtnSettingstitle": {
+        "message": "Настройки",
+        "description": "Settings button."
+    },
+    "BtnCloseSettingstitle": {
+        "message": "Закрыть",
+        "description": "Close button."
+    },
+    "HeaderSettingsinnerText": {
+        "message": "Настройки",
+        "description": "Settings header."
+    },
+    "HeaderSettingsViewinnerText": {
+        "message": "Вид",
+        "description": "View settings header."
+    },
+    "ToggleGlowinnerText": {
+        "message": "Показывать свечение ярлыков",
+        "description": "Toggle color glow for icons."
+    },
+    "ToggleAutoNightinnerText": {
+        "message": "Включать ночной режим автоматически",
+        "description": "Enable automatic night mode."
+    },
+    "ToggleAutoNightBegininnerText": {
+        "message": "Начиная с",
+        "description": "Auto night mode beginning."
+    },
+    "ToggleAutoNightEndinnerText": {
+        "message": "И заканчивая в",
+        "description": "Auto night mode ending."
+    },
+    "ToggleNightModeinnerText": {
+        "message": "Ночной режим",
+        "description": "Night mode."
+    },
+    "CompactModeDescriptiontitle": {
+        "message": "Панели будут скрыты, но при наведении курсора на то место, где они были, они появятся снова",
+        "description": "Panel visibility toggle description."
+    },
+    "CompactionModeLabelinnerText": {
+        "message": "Скрывать панели",
+        "description": "Hide panels."
+    },
+    "AnimationinnerText": {
+        "message": "Анимация",
+        "description": "Pick animation."
+    },
+    "AnimationNoneinnerText": {
+        "message": "Нет анимации",
+        "description": "No animation."
+    },
+    "AnimationFallRandinnerText": {
+        "message": "Вылет (случайно)",
+        "description": "Fall (random order)."
+    },
+    "AnimationFallOrderinnerText": {
+        "message": "Вылет (упорядоч.)",
+        "description": "Fall (in order)."
+    },
+    "AnimationFadeRandinnerText": {
+        "message": "Проявление (случайно)",
+        "description": "Fade (random order)."
+    },
+    "AnimationFadeOrderinnerText": {
+        "message": "Проявление (упорядоч.)",
+        "description": "Fade (in order)."
+    },
+    "AnimationGrowRandinnerText": {
+        "message": "Возникновение (случайно)",
+        "description": "Grow (random order)."
+    },
+    "AnimationGrowOrderinnerText": {
+        "message": "Возникновение (упорядоч.)",
+        "description": "Grow (in order)."
+    },
+    "SortLabelinnerText": {
+        "message": "Сортировать",
+        "description": "Pick sort mode."
+    },
+    "SortUserDefinedinnerText": {
+        "message": "Вручную",
+        "description": "User sorts icons themselves."
+    },
+    "SortNameAscinnerText": {
+        "message": "Название (возр.)",
+        "description": "Sort by title (ascending)."
+    },
+    "SortNameDescinnerText": {
+        "message": "Название (убыв.)",
+        "description": "Sort by title (descending)."
+    },
+    "FontFamilyHeaderinnerText": {
+        "message": "Строка шрифтов",
+        "description": "Font-family string."
+    },
+    "FontFamilyDescriptioninnerText": {
+        "message": "Для изменения шрифта ",
+        "description": "Tells the user what's a font-family and how to use it."
+    },
+    "FontFamilyDescriptionBoldinnerText": {
+        "message": "введите строку в формате CSS font-family и нажмите Enter или кликните вне поля",
+        "description": "Tells the user what's a font-family and how to use it - info in bold tag."
+    },
+    "DefaultFontFamilyinnerText": {
+        "message": "Вернуть оригинальные шрифты",
+        "description": "Return defauls font settings."
+    },
+    "BackupHeaderinnerText": {
+        "message": "Резервная копия",
+        "description": "Backup header."
+    },
+    "BackupDescriptionPart1innerText": {
+        "message": "Чтобы сохранить все закрепленные здесь сайты и настройки отображения этой страницы в виде кода, нажмите ",
+        "description": "Tells the user how to create backup."
+    },
+    "BackupDescriptionPart2innerText": {
+        "message": "С помощью этого кода потом можно восстановить закрепленные сайты и настройки отображения для этого расширения, нажав ",
+        "description": "Tells the user how to restore backup."
+    },
+    "TextareaBackuptitle": {
+        "message": "Вставьте код сюда или скопируйте его отсюда после создания",
+        "description": "Hint for user on backup textarea."
+    },
+    "BtnMakeBackupinnerText": {
+        "message": "Создать",
+        "description": "Create new backup code."
+    },
+    "BtnReadBackupinnerText": {
+        "message": "Считать",
+        "description": "Load backup code into the extension."
+    },
+    "HeaderOtherSettingsinnerText": {
+        "message": "Прочее",
+        "description": "Other settings header."
+    },
+    "BtnAboutinnerText": {
+        "message": "О расширении",
+        "description": "About."
+    },
+    "BtnLocalizationinnerText": {
+        "message": "Помочь с переводом",
+        "description": "Help with localization."
+    },
+    "BtnCloseWindowtitle": {
+        "message": "Закрыть",
+        "description": "Close."
+    },
+    "WdSiteNameHintinnerText": {
+        "message": "Название",
+        "description": "Site title."
+    },
+    "WdSiteNameInputplaceholder": {
+        "message": "Название сайта",
+        "description": "Site title placeholder."
+    },
+    "WdSiteAddressHintinnerText": {
+        "message": "Адрес",
+        "description": "Site URL."
+    },
+    "WdSiteAddressInputplaceholder": {
+        "message": "https://example.com",
+        "description": "Site URL placeholder."
+    },
+    "WdFileHintinnerText": {
+        "message": "Значок",
+        "description": "Site icon."
+    },
+    "WdGlowHeaderinnerText": {
+        "message": "Цвет свечения",
+        "description": "Glow color."
+    },
+    "WdGlowAutoinnerText": {
+        "message": "Сгенерировать автоматически",
+        "description": "Generate glow color procedurally."
+    },
+    "WdGlowColorinnerText": {
+        "message": "Выберите цвет:",
+        "description": "Pick a color."
+    },
+    "BtnSaveSiteinnerText": {
+        "message": "Сохранить изменения",
+        "description": "Save changes."
+    },
+    "ExtensionNameinnerText": {
+        "message": "Настариваемая новая вкладка",
+        "description": "Title for about window."
+    },
+    "ExtensionDescriptioninnerText": {
+        "message": "Расширение, позволяющее свободно закреплять сайты на странице, открывающейся в новой вкладке. Доступны возможности редактирования закрепленных сайтов, дневной и ночной режимы с автоматическим включением и набор забавных анимаций вывода.",
+        "description": "Description for about window."
+    },
+    "AuthorinnerText": {
+        "message": "Автор: Конпеки Азуньев",
+        "description": "Extension author."
+    },
+    "TranslationAuthorinnerText": {
+        "message": "Перевод на русский язык: Конпеки Азуньев",
+        "description": "Translation author."
+    },
+    "LicensesinnerText": {
+        "message": "Лицензии",
+        "description": "Licenses."
+    },
+    "FontLicenseinnerText": {
+        "message": "В комплекте с расширением поставляется семейство шрифтов Ubuntu. © Canonical Ltd. ",
+        "description": "Ubuntu font license."
+    },
+    "ColorThiefLicenseinnerText": {
+        "message": "Для работы некоторых функций расширения используется библиотека Color Thief. © Lokesh Dhakar. ",
+        "description": "Color Thief library license."
+    },
+    "DonateinnerText": {
+        "message": "Поддержать автора",
+        "description": "Donate."
+    },
+    "DonationAlertsinnerText": {
+        "message": "Через Donation Alerts",
+        "description": "Through Donation Alerts."
+    },
+    "SortingResetDrag": {
+        "message": "Сортировка была изменена на ручную из-за перетаскивания ярлыка",
+        "description": "Sort mode change after drag and drop action."
+    },
+    "DeletePrompt": {
+        "message": "Вы действительно хотите удалить $ITEMTITLE$?",
+        "description": "Favorited item title deletion prompt.",
+        "placeholders": {
+        "itemtitle" : {
+            "content" : "$1",
+            "example" : "Favorited Item Title"
+        }
+        }
+    },
+    "ContextMenuButtonTitle": {
+        "message": "Добавить на новую вкладку",
+        "description": "Context menu button for adding new sites."
+    },
+    "SiteAddContextError": {
+        "message": "Не удалось получить URL-адрес",
+        "description": "Error when adding new site to via context menu."
+    },
+    "SiteAddContextSuccess": {
+        "message": "Успешно добавлено на новую вкладку",
+        "description": "Success when adding new site to via context menu."
+    },
+    "BackupRestorationError": {
+        "message": "Код не удалось распознать из-за ошибки формата",
+        "description": "Failure to restore backup due to improperly formatted JSON."
+    },
+    "SiteAddOutsideError": {
+        "message": "Не удалось создать пустой ярлык",
+        "description": "Failure to add new site because one of the fields is empty."
+    },
+    "DeleteDamagedID": {
+        "message": "Несуществующий ID, обновите страницу",
+        "description": "Failure to delete a site because it has been already deleted."
+    },
+    "ActionStringEdit": {
+        "message": "Нажмите на ярлык, чтобы отредактировать его",
+        "description": "Editing mode tooltip."
+    },
+    "ActionStringDelete": {
+        "message": "Нажмите на ярлык, чтобы удалить его",
+        "description": "Deletion mode tooltip."
+    },
+    "WindowHeaderAdd": {
+        "message": "Свойства",
+        "description": "Window title for adding or editing sites."
+    },
+    "WindowHeaderDelete": {
+        "message": "Подвердить действие",
+        "description": "Window title for deleting site."
+    },
+    "WindowHeaderAbout": {
+        "message": "О расширении",
+        "description": "Window title for About window."
+    },
+    "WindowHeaderHelpLocalize": {
+        "message": "Помощь с переводом",
+        "description": "Window title for localization help window."
+    }
+}

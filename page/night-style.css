@@ -1,0 +1,122 @@
+body[data-night="true"] .wrapper{
+    background-color: #2F3136;
+    color: #E0E0E0;
+}
+body[data-night="true"] .image-button{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+body[data-night="true"] .image-button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+body[data-night="true"] .text-button{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+body[data-night="true"] .text-button:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+body[data-night="true"] #fav-zone{
+    background-color: #36393F;
+    color: #E0E0E0;
+}
+body[data-night="true"] .wrapper.show-settings #settings-zone{
+    color: #E0E0E0;
+}
+body[data-night="true"] #settings-zone h2{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+body[data-night="true"] #settings-zone p.description{
+    color: #E0E0E0;
+}
+body[data-night="true"] #settings-zone #btn-close-settings{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+body[data-night="true"] #settings-zone #btn-close-settings:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+body[data-night="true"] #window-layer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+body[data-night="true"] #window{
+    background-color: rgb(64, 64, 64);
+}
+body[data-night="true"] #window-header{
+    border-bottom: 2px solid rgb(52, 52, 52);
+}
+body[data-night="true"] #window-header #btn-close-window:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+body[data-night="true"] .prompt-form > input{
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+body[data-night="true"] .toolbelt .text-button#btn-edit{
+    background-color: rgb(58, 76, 170);
+    color: rgb(255, 255, 255);
+}
+body[data-night="true"] .toolbelt .text-button#btn-kill, body[data-night="true"] #btn-delete-ok{
+    background-color: rgb(136, 37, 37);
+    color: rgb(255, 255, 255);
+}
+body[data-night="true"] .toolbelt[data-action="edit"]{
+    background-color: rgb(80, 128, 200);
+}
+body[data-night="true"] .toolbelt[data-action="delete"]{
+    background-color: rgb(206, 78, 78);
+}
+body[data-night="true"] .toolbelt[data-action="edit"] .text-button#btn-edit{
+    background-color: rgb(64, 82, 180);
+    color: rgb(255, 255, 255);
+}
+body[data-night="true"] .toolbelt[data-action="delete"] .text-button#btn-kill, body[data-night="true"] #btn-delete-ok:hover{
+    background-color: rgb(144, 42, 42);
+    color: rgb(255, 255, 255);
+}
+body[data-night="true"] .toolbelt[data-action="edit"] .action-process{
+    color: rgb(255, 255, 255);
+}
+body[data-night="true"] .toolbelt[data-action="delete"] .action-process{
+    color: rgb(255, 255, 255);
+}
+body[data-night="true"] .simple-toggle-wrap .control{
+	border: 2px solid #3080F7;
+    background-color: #2f3136;
+}
+body[data-night="true"] .simple-toggle-wrap .control-inner{
+	background-color: #3080F7;
+}
+body[data-night="true"] .simple-toggle-wrap .control-inner::after{
+    box-sizing: content-box;
+    background-color: rgb(255, 255, 255);
+    border-color: #2f3136;
+}
+body[data-night="true"] #fav-zone .fav-capsule .fav-accent{
+    opacity: 0.25;
+}
+body[data-night="true"] .simple-toggle-wrap .control.selected{
+    background-color: #3080F7;
+    transition-delay: 0.33s;
+}
+body[data-night="true"] .simple-toggle-wrap .control.selected .control-inner::after{
+    border: 4px solid #3080F7;
+}
+body[data-night="true"] #window a{
+    color: #61A6FF;
+    text-decoration: underline;
+}
+body[data-night="true"] #window a.donation{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body[data-night="true"] #btn-add{ background-image: url("../graphics/white-new.png"); }
+body[data-night="true"] #btn-settings{ background-image: url("../graphics/white-settings.png"); }
+body[data-night="true"] [id^="btn-close"]{ background-image: url("../graphics/white-close.png"); }
+
+body[data-night="true"] #scale-small-list{ background-image: url("../graphics/_white_scale_sm_ls.png"); }
+body[data-night="true"] #scale-large-list{ background-image: url("../graphics/_white_scale_lg_ls.png"); }
+body[data-night="true"] #scale-small-icons{ background-image: url("../graphics/_white_scale_sm_ic.png"); }
+body[data-night="true"] #scale-large-icons{ background-image: url("../graphics/_white_scale_lg_ic.png"); }
+
+body[data-night="true"] #scale-small-list:hover, body[data-night="true"] #scale-small-list[data-active="true"]{ background-image: url("../graphics/_scale_sm_ls_blue.png"); }
+body[data-night="true"] #scale-large-list:hover, body[data-night="true"] #scale-large-list[data-active="true"]{ background-image: url("../graphics/_scale_lg_ls_blue.png"); }
+body[data-night="true"] #scale-small-icons:hover, body[data-night="true"] #scale-small-icons[data-active="true"]{ background-image: url("../graphics/_scale_sm_ic_blue.png"); }
+body[data-night="true"] #scale-large-icons:hover, body[data-night="true"] #scale-large-icons[data-active="true"]{ background-image: url("../graphics/_scale_lg_ic_blue.png"); }

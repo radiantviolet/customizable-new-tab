@@ -1,0 +1,328 @@
+{
+    "extensionName": {
+        "message": "Customizable New Tab",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "This extension allows you to pin your favorite websites to the New Tab page. The New Tab page allows for customization, has night mode with the ability to turn it on automatically based time of day, as well as a set of lively animations. It also allows you to add any website to the New Tab via context menu! The extension doesn't send your info anywhere and stores all the links and preferences in your local storage - be sure to make backup codes regularly so that you won't lose anything.",
+        "description": "Description of the extension."
+    },
+    "extensionAuthor": {
+        "message": "AzzyPics",
+        "description": "Author name for manifest."
+    },
+    "PageTitleinnerText": {
+        "message": "New Tab",
+        "description": "New Tab title."
+    },
+    "BtnEditinnerText": {
+        "message": "Edit",
+        "description": "Button that makes extension go into edit mode."
+    },
+    "BtnKillinnerText": {
+        "message": "Delete",
+        "description": "Button that makes extension go into delete mode."
+    },
+    "ScaleSltitle": {
+        "message": "Small List",
+        "description": "Small list view mode."
+    },
+    "ScaleBltitle": {
+        "message": "Large List",
+        "description": "Large list view mode."
+    },
+    "ScaleSititle": {
+        "message": "Small Icons",
+        "description": "Small icons view mode."
+    },
+    "ScaleBititle": {
+        "message": "Large Icons",
+        "description": "Large icons view mode."
+    },
+    "BtnAddtitle": {
+        "message": "Add new site",
+        "description": "Add button."
+    },
+    "BtnSettingstitle": {
+        "message": "Settings",
+        "description": "Settings button."
+    },
+    "BtnCloseSettingstitle": {
+        "message": "Close",
+        "description": "Close button."
+    },
+    "HeaderSettingsinnerText": {
+        "message": "Settings",
+        "description": "Settings header."
+    },
+    "HeaderSettingsViewinnerText": {
+        "message": "View",
+        "description": "View settings header."
+    },
+    "ToggleGlowinnerText": {
+        "message": "Icon glow effect",
+        "description": "Toggle color glow for icons."
+    },
+    "ToggleAutoNightinnerText": {
+        "message": "Automatic Night Mode",
+        "description": "Enable automatic night mode."
+    },
+    "ToggleAutoNightBegininnerText": {
+        "message": "From",
+        "description": "Auto night mode beginning."
+    },
+    "ToggleAutoNightEndinnerText": {
+        "message": "To",
+        "description": "Auto night mode ending."
+    },
+    "ToggleNightModeinnerText": {
+        "message": "Night Mode",
+        "description": "Night mode."
+    },
+    "CompactModeDescriptiontitle": {
+        "message": "Panels will not be visible until you hover the mouse cursor over the place where they used to be",
+        "description": "Panel visibility toggle description."
+    },
+    "CompactionModeLabelinnerText": {
+        "message": "Hide panels",
+        "description": "Hide panels."
+    },
+    "AnimationinnerText": {
+        "message": "Animation",
+        "description": "Pick animation."
+    },
+    "AnimationNoneinnerText": {
+        "message": "None",
+        "description": "No animation."
+    },
+    "AnimationFallRandinnerText": {
+        "message": "Fall (Random)",
+        "description": "Fall (random order)."
+    },
+    "AnimationFallOrderinnerText": {
+        "message": "Fall (Ordered)",
+        "description": "Fall (in order)."
+    },
+    "AnimationFadeRandinnerText": {
+        "message": "Fade (Random)",
+        "description": "Fade (random order)."
+    },
+    "AnimationFadeOrderinnerText": {
+        "message": "Fade (Ordered)",
+        "description": "Fade (in order)."
+    },
+    "AnimationGrowRandinnerText": {
+        "message": "Grow (Random)",
+        "description": "Grow (random order)."
+    },
+    "AnimationGrowOrderinnerText": {
+        "message": "Grow (Ordered)",
+        "description": "Grow (in order)."
+    },
+    "SortLabelinnerText": {
+        "message": "Sort mode",
+        "description": "Pick sort mode."
+    },
+    "SortUserDefinedinnerText": {
+        "message": "Manual",
+        "description": "User sorts icons themselves."
+    },
+    "SortNameAscinnerText": {
+        "message": "Title (ascending)",
+        "description": "Sort by title (ascending)."
+    },
+    "SortNameDescinnerText": {
+        "message": "Title (descending)",
+        "description": "Sort by title (descending)."
+    },
+    "FontFamilyHeaderinnerText": {
+        "message": "Font-Family",
+        "description": "Font-family string."
+    },
+    "FontFamilyDescriptioninnerText": {
+        "message": "To change the list of fonts used on this page ",
+        "description": "Tells the user what's a font-family and how to use it."
+    },
+    "FontFamilyDescriptionBoldinnerText": {
+        "message": "provide a CSS font-family string, then press Enter or click out of the field",
+        "description": "Tells the user what's a font-family and how to use it - info in bold tag."
+    },
+    "DefaultFontFamilyinnerText": {
+        "message": "Restore default fonts",
+        "description": "Return defauls font settings."
+    },
+    "BackupHeaderinnerText": {
+        "message": "Backup & Restore",
+        "description": "Backup header."
+    },
+    "BackupDescriptionPart1innerText": {
+        "message": "To generate a code that contains info about your favorites and current settings press ",
+        "description": "Tells the user how to create backup."
+    },
+    "BackupDescriptionPart2innerText": {
+        "message": "Then, to restore your data, you can paste a properly formatted code into the field below and press ",
+        "description": "Tells the user how to restore backup."
+    },
+    "TextareaBackuptitle": {
+        "message": "Paste restoration code here or copy generated code from here",
+        "description": "Hint for user on backup textarea."
+    },
+    "BtnMakeBackupinnerText": {
+        "message": "Create",
+        "description": "Create new backup code."
+    },
+    "BtnReadBackupinnerText": {
+        "message": "Restore",
+        "description": "Load backup code into the extension."
+    },
+    "HeaderOtherSettingsinnerText": {
+        "message": "Other",
+        "description": "Other settings header."
+    },
+    "BtnAboutinnerText": {
+        "message": "About",
+        "description": "About."
+    },
+    "BtnLocalizationinnerText": {
+        "message": "Translation Help",
+        "description": "Help with localization."
+    },
+    "BtnCloseWindowtitle": {
+        "message": "Close",
+        "description": "Close."
+    },
+    "WdSiteNameHintinnerText": {
+        "message": "Title",
+        "description": "Site title."
+    },
+    "WdSiteNameInputplaceholder": {
+        "message": "Enter site title here",
+        "description": "Site title placeholder."
+    },
+    "WdSiteAddressHintinnerText": {
+        "message": "Web Address",
+        "description": "Site URL."
+    },
+    "WdSiteAddressInputplaceholder": {
+        "message": "https://example.com",
+        "description": "Site URL placeholder."
+    },
+    "WdFileHintinnerText": {
+        "message": "Icon",
+        "description": "Site icon."
+    },
+    "WdGlowHeaderinnerText": {
+        "message": "Glow Color",
+        "description": "Glow color."
+    },
+    "WdGlowAutoinnerText": {
+        "message": "Generate new glow color",
+        "description": "Generate glow color procedurally."
+    },
+    "WdGlowColorinnerText": {
+        "message": "Pick a color:",
+        "description": "Pick a color."
+    },
+    "BtnSaveSiteinnerText": {
+        "message": "Save changes",
+        "description": "Save changes."
+    },
+    "ExtensionNameinnerText": {
+        "message": "Customizable New Tab",
+        "description": "Title for about window."
+    },
+    "ExtensionDescriptioninnerText": {
+        "message": "This extension allows you to pin your favorite websites to the New Tab page. The New Tab page allows for customization, has night mode with the ability to turn it on automatically based time of day, as well as a set of lively animations.",
+        "description": "Description for about window."
+    },
+    "AuthorinnerText": {
+        "message": "Made by: AzzyPics",
+        "description": "Extension author."
+    },
+    "TranslationAuthorinnerText": {
+        "message": "English translation by: AzzyPics",
+        "description": "Translation author."
+    },
+    "LicensesinnerText": {
+        "message": "LIcenses",
+        "description": "Licenses."
+    },
+    "FontLicenseinnerText": {
+        "message": "This extension uses Ubuntu family of fonts. © Canonical Ltd. ",
+        "description": "Ubuntu font license."
+    },
+    "ColorThiefLicenseinnerText": {
+        "message": "This extension uses Color Thief library. © Lokesh Dhakar. ",
+        "description": "Color Thief library license."
+    },
+    "DonateinnerText": {
+        "message": "Donate",
+        "description": "Donate."
+    },
+    "DonationAlertsinnerText": {
+        "message": "Powered by Donation Alerts",
+        "description": "Through Donation Alerts."
+    },
+    "SortingResetDrag": {
+        "message": "Sort mode has been set to Manual because you've reordered the items",
+        "description": "Sort mode change after drag and drop action."
+    },
+    "DeletePrompt": {
+        "message": "Are you sure you want to delete $ITEMTITLE$?",
+        "description": "Favorited item title deletion prompt.",
+        "placeholders": {
+        "itemtitle" : {
+            "content" : "$1",
+            "example" : "Favorited Item Title"
+        }
+        }
+    },
+    "ContextMenuButtonTitle": {
+        "message": "Add to New Tab",
+        "description": "Context menu button for adding new sites."
+    },
+    "SiteAddContextError": {
+        "message": "Couldn't get URL of this tab",
+        "description": "Error when adding new site to via context menu."
+    },
+    "SiteAddContextSuccess": {
+        "message": "Successfully added to the New Tab",
+        "description": "Success when adding new site to via context menu."
+    },
+    "BackupRestorationError": {
+        "message": "Code couldn't be read due to improper format",
+        "description": "Failure to restore backup due to improperly formatted JSON."
+    },
+    "SiteAddOutsideError": {
+        "message": "Couldn't create an empty link",
+        "description": "Failure to add new site because one of the fields is empty."
+    },
+    "DeleteDamagedID": {
+        "message": "ID doesn't exist, please refresh the page",
+        "description": "Failure to delete a site because it has been already deleted."
+    },
+    "ActionStringEdit": {
+        "message": "Click on an item to edit its properties",
+        "description": "Editing mode tooltip."
+    },
+    "ActionStringDelete": {
+        "message": "Click on an item to delete it",
+        "description": "Deletion mode tooltip."
+    },
+    "WindowHeaderAdd": {
+        "message": "Properties",
+        "description": "Window title for adding or editing sites."
+    },
+    "WindowHeaderDelete": {
+        "message": "Confirm deletion",
+        "description": "Window title for deleting site."
+    },
+    "WindowHeaderAbout": {
+        "message": "About",
+        "description": "Window title for About window."
+    },
+    "WindowHeaderHelpLocalize": {
+        "message": "Translation Help",
+        "description": "Window title for localization help window."
+    }
+}

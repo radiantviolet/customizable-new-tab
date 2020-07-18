@@ -1,0 +1,228 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../icons/icon-96.png">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="night-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-scale.css">
+    <link rel="stylesheet" href="animation.css">
+    <title data-localization="page-title">New Tab</title>
+    <script src="./processing.js"></script>
+    <script src="./buttons.js"></script>
+    <script src="./dragwindow.js"></script>
+    <script src="./build.js"></script>
+    <script src="./localization.js"></script>
+</head>
+
+<body>
+    <div class="notification">
+    </div>
+    <div class="wrapper">
+        <div id="fav-zone">
+            <div class="toolbelt">
+                <div class="action-process">
+                    
+                </div>
+                <div class="toolbuttons">
+                    <div class="button-panel">
+                        <div data-localization="btn-edit" class="text-button" id="btn-edit">Edit</div>
+                        <div data-localization="btn-kill" class="text-button" id="btn-kill">Delete</div>
+                    </div>
+                </div>
+            </div>
+            <div id="fav-zone-wrapper">
+                <div id="dummy-link"></div>
+            </div>
+
+            <div id="bottom-toolbar">
+                <div class="scale-wrapper">
+                    <div data-localization="scale-sl" id="scale-small-list" title="Small List"></div>
+                    <div data-localization="scale-bl" id="scale-large-list" title="Large List"></div>
+                    <div data-localization="scale-si" id="scale-small-icons" title="Small Icons"></div>
+                    <div data-localization="scale-bi" id="scale-large-icons" title="Large Icons"></div>
+                </div>
+                <div class="option-buttons">
+                    <div data-localization="btn-add" class="image-button" id="btn-add" title="Add new site" data-call="add"></div>
+                    <div data-localization="btn-settings" class="image-button" id="btn-settings" title="Settings"></div>            
+                </div>
+            </div>
+        </div>
+        <div id="settings-zone">
+            <div data-localization="btn-close-settings" class="image-button" id="btn-close-settings" title="Close"></div>
+            <h1 data-localization="header-settings">Settings</h1>
+            <div class="settings-list">
+                <h2 data-localization="header-settings-view">View</h2>
+                <div class="simple-toggle-wrap">
+                    <div class="label" data-localization="toggle-glow">Icon glow effect</div>
+                    <div class="control" id="glow-toggle">
+                        <div class="control-inner"></div>
+                    </div>
+                </div>
+                <div class="simple-toggle-wrap">
+                    <div class="label" data-localization="toggle-auto-night">Automatic Night Mode</div>
+                    <div class="control" id="auto-night-theme-toggle">
+                        <div class="control-inner"></div>
+                    </div>
+                </div>
+                <div class="input-group-vertical" data-show="night-show">
+                    <div class="input-row">
+                        <div class="label" data-localization="toggle-auto-night-begin">From</div>
+                        <input type="number" min="0" max="23" class="time-input" id="begin-hh" placeholder="00" autocomplete="off" data-auto-nm="true">
+                        <input type="number" min="0" max="59" class="time-input" id="begin-mm" placeholder="00" autocomplete="off" data-auto-nm="true">
+                    </div>
+                    <div class="input-row">
+                        <div class="label" data-localization="toggle-auto-night-end">To</div>
+                        <input type="number" min="0" max="23" class="time-input" id="end-hh" placeholder="00" autocomplete="off" data-auto-nm="true">
+                        <input type="number" min="0" max="59" class="time-input" id="end-mm" placeholder="00" autocomplete="off" data-auto-nm="true">
+                    </div>
+                </div>
+                <div class="simple-toggle-wrap" data-show="night-hide">
+                    <div class="label" data-localization="toggle-night-mode">Night Mode</div>
+                    <div class="control" id="night-theme-toggle">
+                        <div class="control-inner"></div>
+                    </div>
+                </div>
+                <div data-localization="compact-mode-description" class="simple-toggle-wrap" title="Panels will not be visible until you hover the mouse cursor over the place where they used to be">
+                    <div class="label" data-localization="compaction-mode-label">Hide panels</div>
+                    <div class="control" id="compact-toggle">
+                        <div class="control-inner"></div>
+                    </div>
+                </div>
+                <div class="input-group-vertical">
+                    <div class="input-row">
+                        <div class="label" data-localization="animation">Animation</div>
+                        <select id="entrance-animation">
+                            <option data-localization="animation-none" id="none">None</option>
+                            <option data-localization="animation-fall-rand" id="fall-rand">Fall (Random)</option>
+                            <option data-localization="animation-fall-order" id="fall-order">Fall (Ordered)</option>
+                            <option data-localization="animation-fade-rand" id="fade-rand">Fade (Random)</option>
+                            <option data-localization="animation-fade-order" id="fade-order">Fade (Ordered)</option>
+                            <option data-localization="animation-grow-rand" id="grow-rand">Grow (Random)</option>
+                            <option data-localization="animation-grow-order" id="grow-order">Grow (Ordered)</option>
+                        </select>
+                    </div>
+                    <div class="input-row">
+                        <div class="label" data-localization="sort-label">Sort mode</div>
+                        <select id="sort-type">
+                            <option data-localization="sort-user-defined" id="user-defined">Manual</option>
+                            <option data-localization="sort-name-asc" id="name-asc">Title (ascending)</option>
+                            <option data-localization="sort-name-desc" id="name-desc">Title (descending)</option>
+                        </select>
+                    </div>
+                </div>
+                <h2 data-localization="font-family-header">Font-Family</h2>
+                <p class="description">
+                    <span data-localization="font-family-description">To change the list of fonts used on this page </span><b data-localization="font-family-description-bold">provide a CSS font-family string, then press Enter or click out of the field</b>.
+                </p>
+                <input type="text" class="text-input" id="font-family" autocomplete="off">
+                <div class="button-panel">
+                    <div data-localization="default-font-family" class="text-button" id="btn-default-font">Restore default fonts</div>
+                </div>
+                <h2 data-localization="backup-header">Backup &amp; Restore</h2>
+                <p class="description">
+                    <span data-localization="backup-description-part1">To generate a code that contains info about your favorites and current settings press </span><b data-localization="btn-make-backup">Create</b>. <span data-localization="backup-description-part2">Then, to restore your data, you can paste a properly formatted code into the field below and press </span><b data-localization="btn-read-backup">Restore</b>.
+                </p>
+                <textarea data-localization="textarea-backup" title="Paste restoration code here or copy generated code from here" id="ta-backup"></textarea>
+                <div class="button-panel">
+                    <div data-localization="btn-make-backup" class="text-button" id="btn-make-backup">Create</div>
+                    <div data-localization="btn-read-backup" class="text-button" id="btn-read-backup">Restore</div>
+                </div>
+                <h2 data-localization="header-other-settings">Other</h2>
+                <div class="button-panel">
+                    <div data-localization="btn-about" class="text-button" id="btn-about">About</div>
+                </div>
+                <div class="button-panel">
+                    <div data-localization="btn-localization" class="text-button" id="btn-localization">Translation Help</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="window-layer">
+            <div id="window">
+                <div id="window-header">
+                    <div id="window-title">Редактирование</div>
+                    <div data-localization="btn-close-window" class="image-button" id="btn-close-window" title="Close"></div>
+                </div>
+                <div id="window-main">
+                </div>
+            </div>
+        </div>
+
+        <div id="wintemp">
+            <div id="win-add">
+                <div class="prompt-form">
+                    <input type="hidden" id="wd-site-id" autocomplete="off">
+                    <input type="hidden" id="wd-site-order" autocomplete="off">
+                    <input type="hidden" id="wd-site-file-b64" autocomplete="off">
+
+                    <div data-localization="wd-site-name-hint" class="text-label">Title</div>
+                    <input data-localization="wd-site-name-input" type="text" id="wd-site-name" autocomplete="off" placeholder="Enter site title here">
+                    
+                    <div data-localization="wd-site-address-hint" class="text-label">Web Address</div>
+                    <input data-localization="wd-site-address-input" type="text" id="wd-site-address" autocomplete="off" placeholder="https://example.com">
+                    
+                    <div data-localization="wd-file-hint" class="text-label">Icon</div>
+                    <input type="file" accept=".jpg, .png, .gif" id="wd-file" autocomplete="off">
+
+                    <canvas></canvas>
+
+                    <div data-localization="wd-glow-header" class="text-label">Glow Color</div>
+                    
+                    <div class="simple-toggle-wrap">
+                        <div data-localization="wd-glow-auto" class="label">Generate new glow color</div>
+                        <div class="control" id="accent-toggle">
+                            <div class="control-inner"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="input-row" data-show="custom-color">
+                        <div data-localization="wd-glow-color" class="label">Pick a color:</div>
+                        <input type="color" id="wd-accent">
+                    </div>
+
+                    <div class="button-panel">
+                        <div data-localization="btn-save-site" class="text-button" id="btn-save-site">Save changes</div>
+                    </div>
+                </div>
+            </div>
+            <div id="win-delete">
+                <div class="prompt-form">
+                    <input type="hidden" id="wd-delete-id" autocomplete="off">
+                    <div class="text-label" id="wd-delete-prompt"></div>
+                    <div class="button-panel">
+                        <div class="text-button" id="btn-delete-ok">Удалить</div>
+                        <div class="text-button" id="btn-delete-cancel">Отменить</div>
+                    </div>
+                </div>
+            </div>
+            <div id="win-about">
+                <div data-localization="extension-name" class="section-title">Customizable New Tab</div>
+                <div class="small-text">1.0.1</div>
+                <p data-localization="extension-description" class="description">This extension allows you to pin your favorite websites to the New Tab page. The New Tab page allows for customization, has night mode with the ability to turn it on automatically based time of day, as well as a set of lively animations.</p>
+                <p data-localization="author" class="description">Made by: AzzyPics</p>
+                <p data-localization="translation-author" class="description">English translation by: AzzyPics</p>
+                <div data-localization="licenses" class="section-title">LIcenses</div>
+                <p class="description">
+                    <span data-localization="font-license">This extension uses Ubuntu family of fonts. © Canonical Ltd. </span><a href="https://ubuntu.com/legal/font-licence">Ubuntu Font Licence</a>
+                </p>
+                <p class="description">
+                    <span data-localization="color-thief-license">This extension uses Color Thief library. © Lokesh Dhakar. </span><a href="https://github.com/lokesh/color-thief/blob/master/LICENSE">MIT License</a>
+                </p>
+                <a href="https://www.donationalerts.com/r/azzypics" target="_blank" class="donation">
+                    <span data-localization="donate">Donate</span>
+                    <div data-localization="donation-alerts" class="small-text">Powered by Donation Alerts</div>
+                </a>
+            </div>
+            <div id="win-help-localize">
+                <p class="description">
+                    Если Вы хотите помочь людям, говорящим на Вашем языке, открыть для себя это расширение, Вы можете помочь с переводом этого расширения на Ваш язык! Вы будете указаны как автор перевода в окне "О расширении". Для этого напишите мне на русском или английском языке на <b>azunekonpeki (at) yandex.com</b> с темой "Помощь с переводом расширения".
+                </p>
+                <p class="description">
+                    If you want to, you can help with the translation of this extension, so that more people can find it and enjoy it in their native languages! You'll be credited as the translation author in the "About" window. To do this, you can send me a e-mail written in English or Russian to <b>azunekonpeki (at) yandex.com</b> with "Localization Help" set as subject.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>

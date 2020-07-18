@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "1.0.1",
+
+  "description": "__MSG_extensionDescription__",
+  "author": "__MSG_extensionAuthor__",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "56.0"
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "page/index.html"
+  },
+
+  "permissions": [
+    "*://*/*",
+    "storage",
+    "unlimitedStorage",
+    "menus",
+    "activeTab"
+  ],
+  
+  "background": {
+    "scripts": ["./lib/color-thief/dist/color-thief.umd.js", "mechanism.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["page.js"]
+    }
+  ],
+
+  "default_locale": "en"
+}
