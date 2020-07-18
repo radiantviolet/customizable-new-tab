@@ -324,5 +324,13 @@
     "WindowHeaderHelpLocalize": {
         "message": "Translation Help",
         "description": "Window title for localization help window."
+    },
+    "BtnDeleteOkinnerText": {
+        "message": "Delete",
+        "description": "Confirm deletion of an item."
+    },
+    "BtnDeleteCancelinnerText": {
+        "message": "Cancel",
+        "description": "Cancel deletion of an item."
     }
 }

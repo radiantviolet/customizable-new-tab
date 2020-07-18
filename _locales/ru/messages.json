@@ -324,5 +324,13 @@
     "WindowHeaderHelpLocalize": {
         "message": "Помощь с переводом",
         "description": "Window title for localization help window."
+    },
+    "BtnDeleteOkinnerText": {
+        "message": "Удалить",
+        "description": "Confirm deletion of an item."
+    },
+    "BtnDeleteCancelinnerText": {
+        "message": "Отменить",
+        "description": "Cancel deletion of an item."
     }
 }
