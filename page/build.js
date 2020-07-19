@@ -77,6 +77,7 @@ function buildLink(itemID, item){
     itemContainer.className = "fav-link";
     itemContainer.href = item.url;
     itemContainer.title = item.url;
+    itemContainer.setAttribute("draggable", true);
 
     itemContainer.onclick = function(e){
         if(global.mode != "view"){
@@ -128,6 +129,7 @@ function buildLink(itemID, item){
     var itemIMG = document.createElement("IMG");
     itemIMG.src = item.icon;
     itemIMG.className = "fav-icon";
+    itemIMG.setAttribute("draggable", false);
 
     var itemInfo = document.createElement("DIV");
     itemInfo.className = "fav-info";
