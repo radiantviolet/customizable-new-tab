@@ -122,7 +122,7 @@ window.onload = function(){
           global.firstTimeAnimation = true;
           document.getElementById("ta-backup").value = "";
           rebuildPage();
-          renderSettings();
+          loadViewSettings();
         }
         else if(data.kind === "error"){
           notify(data.body, "error");
