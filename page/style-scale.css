@@ -73,10 +73,10 @@
     width: 24px;
     height: 24px;
     border-radius: 16px;
-    background: rgba(200, 200, 200, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+    background: rgba(200, 200, 200, 0.7) url("../graphics/close.png") center/12px auto no-repeat;
 }
 .large-icons [data-action="delete"] .delete-fav:hover{
-    background: rgba(230, 230, 230, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+    background: rgba(230, 230, 230, 0.7) url("../graphics/close.png") center/12px auto no-repeat;
 }
 
 #fav-zone.small-icons #fav-zone-wrapper{
@@ -114,10 +114,10 @@
     width: 24px;
     height: 24px;
     border-radius: 16px;
-    background: rgba(200, 200, 200, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+    background: rgba(200, 200, 200, 0.7) url("../graphics/close.png") center/12px auto no-repeat;
 }
 .small-icons [data-action="delete"] .delete-fav:hover{
-    background: rgba(230, 230, 230, 0.7) url("../graphics//close.png") center/12px auto no-repeat;
+    background: rgba(230, 230, 230, 0.7) url("../graphics/close.png") center/12px auto no-repeat;
 }
 
 #fav-zone.large-list #fav-zone-wrapper{
@@ -164,10 +164,10 @@
     width: 24px;
     height: 24px;
     border-radius: 16px;
-    background: rgba(200, 200, 200, 1.0) url("../graphics//close.png") center/12px auto no-repeat;
+    background: rgba(200, 200, 200, 1.0) url("../graphics/close.png") center/12px auto no-repeat;
 }
 .large-list [data-action="delete"] .delete-fav:hover{
-    background: rgba(230, 230, 230, 1.0) url("../graphics//close.png") center/12px auto no-repeat;
+    background: rgba(230, 230, 230, 1.0) url("../graphics/close.png") center/12px auto no-repeat;
 }
 
 #fav-zone.small-list #fav-zone-wrapper{
@@ -214,10 +214,10 @@
     width: 20px;
     height: 20px;
     border-radius: 10px;
-    background: rgba(200, 200, 200, 1.0) url("../graphics//close.png") center/10px auto no-repeat;
+    background: rgba(200, 200, 200, 1.0) url("../graphics/close.png") center/10px auto no-repeat;
 }
 .small-list [data-action="delete"] .delete-fav:hover{
-    background: rgba(230, 230, 230, 1.0) url("../graphics//close.png") center/10px auto no-repeat;
+    background: rgba(230, 230, 230, 1.0) url("../graphics/close.png") center/10px auto no-repeat;
 }
 
 @media only screen and (min-width: 479px){
