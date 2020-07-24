@@ -259,9 +259,9 @@
         "message": "Поддержать автора",
         "description": "Donate."
     },
-    "DonationAlertsinnerText": {
-        "message": "Через Donation Alerts",
-        "description": "Through Donation Alerts."
+    "DonationsPoweredByinnerText": {
+        "message": "Через PayPal",
+        "description": "Through which service."
     },
     "SortingResetDrag": {
         "message": "Сортировка была изменена на ручную из-за перетаскивания ярлыка",

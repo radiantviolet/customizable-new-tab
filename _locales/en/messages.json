@@ -259,9 +259,9 @@
         "message": "Donate",
         "description": "Donate."
     },
-    "DonationAlertsinnerText": {
-        "message": "Powered by Donation Alerts",
-        "description": "Through Donation Alerts."
+    "DonationsPoweredByinnerText": {
+        "message": "Via PayPal",
+        "description": "Through which service."
     },
     "SortingResetDrag": {
         "message": "Sort mode has been set to Manual because you've reordered the items",

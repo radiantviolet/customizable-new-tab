@@ -540,7 +540,7 @@ a, a:visited{
     font-size: 14px;
 }
 #window a.donation{
-    background-color: rgb(238, 116, 28);
+    background-color: #0079C1;
     color: #FFFFFF;
     padding: 8px 20px;
     border-radius: 6px;
@@ -559,5 +559,5 @@ a, a:visited{
     font-size: 10px;
 }
 #window a.donation:hover{
-    box-shadow: rgba(238, 116, 28, 0.67) 0px 0px 16px 0px;
+    background-color: #0079C1 0px 0px 16px 0px;
 }
