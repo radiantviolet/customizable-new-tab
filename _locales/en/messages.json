@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "extensionDescription": {
-        "message": "This extension allows you to pin your favorite websites to the New Tab page. The New Tab page allows for customization, has night mode with the ability to turn it on automatically based time of day, as well as a set of lively animations. It also allows you to add any website to the New Tab via context menu! The extension doesn't send your info anywhere and stores all the links and preferences in your local storage - be sure to make backup codes regularly so that you won't lose anything.",
+        "message": "This extension allows you to pin your favorite websites to the New Tab page. The New Tab page allows for customization, has night mode with the ability to turn it on automatically based on the time of day, as well as a set of lively animations. It also allows you to add any website to the New Tab via context menu! The extension doesn't send your info anywhere and stores all the links and preferences in your local storage - be sure to make backup codes regularly so that you won't lose anything.",
         "description": "Description of the extension."
     },
     "extensionAuthor": {
@@ -244,7 +244,7 @@
         "description": "Translation author."
     },
     "LicensesinnerText": {
-        "message": "LIcenses",
+        "message": "Licenses",
         "description": "Licenses."
     },
     "FontLicenseinnerText": {
